@@ -10,6 +10,10 @@ body {
 
 
 .hlavicka {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
 	/*
 	napozicuj hlavičku fixně tak, aby byla stále
 	viditelná u horního okraje okna prohlížeče
@@ -19,6 +23,11 @@ body {
 }
 
 .paticka {
+	position: fixed;
+	left:0;
+	bottom: 0;
+	width: 100%;
+
 	/*
 	napozicuj patičku fixně tak, aby byla stále
 	viditelná u dolního okraje okna prohlížeče
@@ -29,6 +38,8 @@ body {
 }
 
 .obsah {
+	padding-top: 100px ;
+	padding-bottom: 100px;
 	/*
 	přidej CSS, aby obsah nahoře a dole na stránce
 	nebyl zakrytý hlavičkou a patičkou
